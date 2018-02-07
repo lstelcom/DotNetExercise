@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="621b3f1d2d8e47539edcb584108597ae" Name="Diagram1">
+        <EntityTypeShape EntityType="SampleDbModel.Album" Width="1.5" PointX="3" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SampleDbModel.Artist" Width="1.5" PointX="0.75" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SampleDbModel.Customer" Width="1.5" PointX="3" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SampleDbModel.Employee" Width="1.5" PointX="0.75" PointY="9.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SampleDbModel.Genre" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SampleDbModel.Invoice" Width="1.5" PointX="5.25" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SampleDbModel.InvoiceLine" Width="1.5" PointX="7.5" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SampleDbModel.MediaType" Width="1.5" PointX="3" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SampleDbModel.Playlist" Width="1.5" PointX="7.5" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="SampleDbModel.Track" Width="1.5" PointX="5.25" PointY="2.875" IsExpanded="true" />
+        <AssociationConnector Association="SampleDbModel.FK_Album_0_0" ManuallyRouted="false" />
+        <AssociationConnector Association="SampleDbModel.FK_Track_2_0" ManuallyRouted="false" />
+        <AssociationConnector Association="SampleDbModel.FK_Customer_0_0" ManuallyRouted="false" />
+        <AssociationConnector Association="SampleDbModel.FK_Invoice_0_0" ManuallyRouted="false" />
+        <AssociationConnector Association="SampleDbModel.FK_Employee_0_0" ManuallyRouted="false" />
+        <AssociationConnector Association="SampleDbModel.FK_Track_1_0" ManuallyRouted="false" />
+        <AssociationConnector Association="SampleDbModel.FK_InvoiceLine_1_0" ManuallyRouted="false" />
+        <AssociationConnector Association="SampleDbModel.FK_InvoiceLine_0_0" ManuallyRouted="false" />
+        <AssociationConnector Association="SampleDbModel.FK_Track_0_0" ManuallyRouted="false" />
+        <AssociationConnector Association="SampleDbModel.PlaylistTrack" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

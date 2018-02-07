@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetExercise.DAL.Interfaces", "DotNetExercise.DAL.Interfaces\DotNetExercise.DAL.Interfaces.csproj", "{409D175D-73C1-4D5A-928D-DBA86E396AE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetExercise.DAL", "DotNetExercise.DAL\DotNetExercise.DAL.csproj", "{3ACD6C5C-35B5-4D2E-8A31-4993A7995406}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetExercise.DAL.Repository", "DotNetExercise.DAL.Repository\DotNetExercise.DAL.Repository.csproj", "{E9851AF7-8895-4EA2-9CB5-DD7A7E200BC8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{2BABEBE2-8002-41AC-BF94-E2ECBA692856}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetExerciseTests", "DotNetExerciseTests\DotNetExerciseTests.csproj", "{2E2CCB2D-9D61-49EB-96E8-C2CBB3E5C7EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetExercise", "DotNetExercise\DotNetExercise.csproj", "{68A300F9-5667-4F7C-B9DB-B8D9D22E3C10}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SampleDb", "SampleDb", "{F70B64A2-B532-43A2-9BA7-AA98DE13F98B}"
+	ProjectSection(SolutionItems) = preProject
+		..\DatabaseSchema.png = ..\DatabaseSchema.png
+		..\SampleDb.db3 = ..\SampleDb.db3
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetExercise.DAL.Entities", "DotNetExercise.DAL.Entities\DotNetExercise.DAL.Entities.csproj", "{285E0810-CA02-4D25-8F0F-4042C12E9489}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{409D175D-73C1-4D5A-928D-DBA86E396AE0}.Debug|x86.ActiveCfg = Debug|x86
+		{409D175D-73C1-4D5A-928D-DBA86E396AE0}.Debug|x86.Build.0 = Debug|x86
+		{409D175D-73C1-4D5A-928D-DBA86E396AE0}.Release|x86.ActiveCfg = Release|x86
+		{409D175D-73C1-4D5A-928D-DBA86E396AE0}.Release|x86.Build.0 = Release|x86
+		{3ACD6C5C-35B5-4D2E-8A31-4993A7995406}.Debug|x86.ActiveCfg = Debug|x86
+		{3ACD6C5C-35B5-4D2E-8A31-4993A7995406}.Debug|x86.Build.0 = Debug|x86
+		{3ACD6C5C-35B5-4D2E-8A31-4993A7995406}.Release|x86.ActiveCfg = Release|x86
+		{3ACD6C5C-35B5-4D2E-8A31-4993A7995406}.Release|x86.Build.0 = Release|x86
+		{E9851AF7-8895-4EA2-9CB5-DD7A7E200BC8}.Debug|x86.ActiveCfg = Debug|x86
+		{E9851AF7-8895-4EA2-9CB5-DD7A7E200BC8}.Debug|x86.Build.0 = Debug|x86
+		{E9851AF7-8895-4EA2-9CB5-DD7A7E200BC8}.Release|x86.ActiveCfg = Release|x86
+		{E9851AF7-8895-4EA2-9CB5-DD7A7E200BC8}.Release|x86.Build.0 = Release|x86
+		{2E2CCB2D-9D61-49EB-96E8-C2CBB3E5C7EC}.Debug|x86.ActiveCfg = Debug|x86
+		{2E2CCB2D-9D61-49EB-96E8-C2CBB3E5C7EC}.Debug|x86.Build.0 = Debug|x86
+		{2E2CCB2D-9D61-49EB-96E8-C2CBB3E5C7EC}.Release|x86.ActiveCfg = Release|Any CPU
+		{68A300F9-5667-4F7C-B9DB-B8D9D22E3C10}.Debug|x86.ActiveCfg = Debug|x86
+		{68A300F9-5667-4F7C-B9DB-B8D9D22E3C10}.Debug|x86.Build.0 = Debug|x86
+		{68A300F9-5667-4F7C-B9DB-B8D9D22E3C10}.Release|x86.ActiveCfg = Release|Any CPU
+		{68A300F9-5667-4F7C-B9DB-B8D9D22E3C10}.Release|x86.Build.0 = Release|Any CPU
+		{285E0810-CA02-4D25-8F0F-4042C12E9489}.Debug|x86.ActiveCfg = Debug|x86
+		{285E0810-CA02-4D25-8F0F-4042C12E9489}.Debug|x86.Build.0 = Debug|x86
+		{285E0810-CA02-4D25-8F0F-4042C12E9489}.Release|x86.ActiveCfg = Release|x86
+		{285E0810-CA02-4D25-8F0F-4042C12E9489}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2E2CCB2D-9D61-49EB-96E8-C2CBB3E5C7EC} = {2BABEBE2-8002-41AC-BF94-E2ECBA692856}
+	EndGlobalSection
+EndGlobal
